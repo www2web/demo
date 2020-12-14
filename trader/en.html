@@ -1,0 +1,116 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Guess where the EUR / USD rate will go</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="apple-touch-icon" href="icon.png" />
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x323860.png?v=1"/>
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x963860.png?v=1"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x163860.png?v=1"/>
+  <link rel="stylesheet" href="css/normalize3860.css?v=1" />
+  <link rel="stylesheet" href="css/dygraph3860.css?v=1" />
+  <link rel="stylesheet" href="css/main3860.css?v=1" />
+  <script>window.globalOffer = "https://go.luckywinner.top/click"</script>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <div class="popup-container">
+    <div class="popup-content" id="popup"></div><br>
+    <div class="popup-helper"></div>
+  </div>
+  <div class="header">Guess where the EUR / USD rate will go and earn real money!</div>
+  <div class="page">
+    <div class="overlay-container" id="guessed" style="display: none">
+      <div class="overlay">
+        <div><h3 style="color: limegreen">You guessed!</h3></div>
+        <div class="filler">
+          <p> Your profit amounted to <span id="guessed_prize">$0</span></p>
+          <p> Register and take +100% bonus on your first deposit</p>
+        </div>
+        <div>
+          <div id="closeWithRedirect1">Register</div>
+          <div id="closeGuessed">Continue practice...</div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay-container" id="missed" style="display: none">
+      <div class="overlay">
+        <div><h3 style="color: red">You lose!</h3></div>
+        <div class="filler">
+          <p> This time it wasn't possible to earn. But you can try again!</div>
+          <p> Register and take +100% bonus on your first deposit</p>
+        <div>
+          <div id="closeWithRedirect">Register</div>
+          <div id="closeMissed">Continue practice...</div>
+        </div>
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="content">
+        <div class="content-slider">
+          <div class="content-block">
+            <div class="play">
+              <div class="play-graph">
+                <div class="play-graph-header">
+                  <div>
+                    EUR / USD: <span id="current">--</span> &nbsp;&nbsp;
+                  </div>
+                  <div class="filler"></div>
+                  <div>
+                    Target: <span id="target">none</span>&nbsp;&nbsp;
+                  </div>
+                  <div class="filler"></div>
+                  <div>
+                    Bet: <span id="direction">none</span>
+                  </div>
+                </div>
+                <div class="play-graph-hover__green"></div>
+                <div class="play-graph-hover__red" style="border-color:red;"></div>
+                <div class="play-graph-ticker" id="ticker">
+                </div>
+              </div>
+              <div class="play-labels">
+                <div id="current-label">&nbsp;</div>
+                <div class="set_line">.</div>
+                <div class="line">.</div>
+                <div class="ring-container">
+                  <div class="ringring"></div>
+                  <div class="circle"></div>
+                  <div class="helperPointer">&nbsp;</div>
+                </div>
+              </div>
+              <div class="play-controls">
+                <div class="field text-field pad single">Your balance: <div id="balance">--</div></div>
+                <div class="field text-field pad single" id="time">--</div>
+                <div class="field text-field" id="bet">--</div>
+                <div class="field control-field left" id="minusBet">&minus;</div>
+                <div class="field control-field right" id="plusBet">&plus;</div>
+                <div class="button_up" id="up">Up</div>
+                <div class="button_down" id="down">Down</div>
+              </div>
+            </div>
+            <div class="status">Help</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="../../code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/vendor/dygraph.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

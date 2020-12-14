@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" height="440px" style="zoom: 1;" cursor="crosshair" id="svg_document" width="500px" baseProfile="full" version="1.1" preserveAspectRatio="xMidYMid meet" viewBox="0 0 500 440">
+    <title id="svg_document_title">Untitled.svg</title>
+    <font id="Font1" horiz-adv-x="1000">
+        <font-face font-family="Arial" font-weight="bold" font-style="normal"
+                   units-per-em="1000" cap-height="600" x-height="400"
+                   ascent="700" descent="300"
+                   alphabetic="0" mathematical="350" ideographic="400" hanging="500">
+            <font-face-src>
+                <font-face-name name="Arial"/>
+            </font-face-src>
+        </font-face>
+        <missing-glyph><path d="M0,0h200v200h-200z"/></missing-glyph>
+        <glyph unicode="!" horiz-adv-x="300"></glyph>
+        <glyph unicode="@"></glyph>
+    </font>
+    <defs id="svg_document_defs"></defs>
+    <g id="main_group"></g>
+    <polygon points="3,380 20,368 14,378 58,378 58,383 14,383 20,393" stroke="#fff" visibility="visible" stroke-width="1px" id="polygon2" fill="orangered" transform=""></polygon>
+    <polygon points="3,218 20,206 14,216 58,216 58,221 14,221 20,231" stroke="#fff" stroke-width="1px" id="polygon1" fill="orangered" transform="" visibility="visible"></polygon>
+    <text stroke="none" style="outline-style: none;" id="text2" stroke-width="1px" x="80px" font-weight="normal" text-rendering="geometricPrecision" font-family="Arial" fill="white" font-size="20px" text-decoration="blink" transform="" y="209px" text-anchor="left">Select size of</text>
+    <text stroke="none" style="outline-style:none;" id="text1" stroke-width="1px" x="80px" font-weight="normal" text-rendering="geometricPrecision" font-family="Arial" fill="white" font-size="20px" y="236px" transform="" text-anchor="left">investment</text>
+    <text stroke="none" style="outline-style:none;" id="text4" stroke-width="1px" x="80px" font-weight="normal" text-rendering="geometricPrecision" font-family="Arial" fill="white" font-size="20px" y="395px" transform="" text-anchor="left">prediction</text>
+    <text stroke="none" style="outline-style: none;" id="text3" stroke-width="1px" x="80px" font-weight="normal" text-rendering="geometricPrecision" font-family="Arial" fill="white" font-size="20px" y="367px" transform="" text-anchor="left">Make your</text>
+</svg>
